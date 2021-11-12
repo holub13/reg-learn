@@ -8,6 +8,8 @@ export default function App() {
   const [passwordError, setPasswordError] = useState({});
   const errorStyle = { outline: "3px solid darkred" };
 
+  // Add disabled condition
+
   const emailHandler = (e) => {
     setEmail(e.target.value);
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
