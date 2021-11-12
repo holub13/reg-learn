@@ -51,6 +51,7 @@ export default function App() {
       <form>
         <div>
           <input
+            className="form-control"
             name="email"
             value={email}
             onBlur={(e) => blurHandler(e)}
@@ -62,6 +63,7 @@ export default function App() {
         </div>
         <div>
           <input
+            className="form-control"
             name="password"
             value={password}
             onBlur={(e) => blurHandler(e)}
@@ -71,7 +73,7 @@ export default function App() {
             placeholder="Enter your password"
           />
         </div>
-        <button>Sing in</button>
+        <button className="btn btn-primary">Sing in</button>
       </form>
     </div>
   );

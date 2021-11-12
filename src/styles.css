@@ -4,10 +4,18 @@
   align-items: center;
   font-family: sans-serif;
   text-align: center;
+  margin-top: 20px;
+  text-shadow: 3px 3px 5px gray;
 }
 form {
-  margin: 20px;
+  border-radius: 15px;
+  padding: 15px;
 }
-.invalid {
-  color: red;
+input {
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 15px gray;
+}
+button {
+  width: 100%;
+  box-shadow: 0px 0px 15px gray;
 }
