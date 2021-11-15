@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function App() {
+export default function Registration() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [emailError, setEmailError] = useState({});
@@ -43,7 +43,7 @@ export default function App() {
     }
   };
   return (
-    <div className="App">
+    <div className="Reg">
       <h1>Registration</h1>
       <form>
         <div>
